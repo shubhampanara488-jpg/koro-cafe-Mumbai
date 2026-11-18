@@ -1,0 +1,6 @@
+{
+  "name": "Kora Café — Mumbai",
+  "description": "Modern aesthetic café in Mumbai serving quality specialty coffee and freshly prepared food at affordable prices.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
