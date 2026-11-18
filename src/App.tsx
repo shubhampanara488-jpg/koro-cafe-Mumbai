@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { Footer } from './components/Footer';
 import { Navbar } from './components/Navbar';
 import { DEFAULT_SITE_DATA } from './data/defaultCafeData';
@@ -138,6 +139,7 @@ export default function App() {
       </main>
 
       <Footer config={siteData.config} onNavigate={navigate} />
+      <Analytics />
     </div>
   );
 }
